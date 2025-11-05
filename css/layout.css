@@ -8,9 +8,24 @@ body {
   flex-direction: column;
 }
 
-.navbar {
+.navbar__menu {
+  margin-top: 0.3125rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10rem;
 }
+.navbar__menu div {
+  width: 17.0212rem;
+  min-height: 9.75rem;
+}
+.navbar__logo:first-of-type img {
+  max-height: 9.75rem;
+}
+.navbar__logo:last-of-type img {
+  max-height: 9.125rem;
+}
+
 .footer {
   background-color: #D9D9D9;
 }/*# sourceMappingURL=layout.css.map */

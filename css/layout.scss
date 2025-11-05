@@ -9,10 +9,32 @@ body {
 }
 
 .navbar {
-    display: flex;
+    
+    &__menu {
+        margin-top: .3125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 10rem;
 
-    &__logo {
+        div {
+            width: 17.0212rem;
+            min-height: 9.75rem;
+        }
+    }
 
+    &__logo:first-of-type {
+        
+        img {
+            max-height: 9.75rem;
+        }
+    }
+
+    &__logo:last-of-type {
+        
+        img {
+            max-height: 9.125rem;
+        }
     }
 }
 
