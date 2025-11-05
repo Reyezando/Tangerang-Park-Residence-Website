@@ -8,6 +8,9 @@ body {
   flex-direction: column;
 }
 
+.navbar {
+  display: flex;
+}
 .footer {
   background-color: #D9D9D9;
 }/*# sourceMappingURL=layout.css.map */

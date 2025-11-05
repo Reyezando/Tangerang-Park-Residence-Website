@@ -8,6 +8,14 @@ body {
     flex-direction: column;
 }
 
+.navbar {
+    display: flex;
+
+    &__logo {
+
+    }
+}
+
 .footer {
     background-color: #D9D9D9;
 }
