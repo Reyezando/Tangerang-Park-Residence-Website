@@ -41,6 +41,23 @@ body {
             max-height: 9.125rem;
         }
     }
+
+    &__background {
+        width: 100%;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        z-index: -1;
+
+        img:first-of-type {
+            width: 20.8594rem;
+        }
+
+        img:not(:first-of-type) {
+            width: 13.25rem;
+        }
+    }
 }
 
 .footer {
