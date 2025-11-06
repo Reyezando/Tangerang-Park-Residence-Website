@@ -39,16 +39,20 @@ body {
   z-index: -1;
 }
 .navbar__background img:first-of-type {
+  margin-left: -75.96px;
+  margin-top: -97.96px;
   width: 20.8594rem;
+  rotate: 20.75deg;
 }
 .navbar__background img:not(:first-of-type) {
   width: 13.25rem;
 }
 .navbar__background img:nth-of-type(2) {
-  margin-top: -3.1875rem;
+  margin-top: -51px;
 }
 .navbar__background img:nth-of-type(3) {
-  margin-top: -3.5rem;
+  margin-top: -56px;
+  margin-right: -141px;
 }
 
 .footer {
