@@ -74,6 +74,11 @@ body {
   color: black;
   text-decoration: none;
 }
+.footer__socmed__brands {
+  display: flex;
+  width: 15.5rem;
+  justify-content: space-between;
+}
 .footer__socmed a {
   color: white;
 }
