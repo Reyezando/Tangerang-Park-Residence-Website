@@ -67,6 +67,9 @@ body {
   font-style: italic;
   text-align: center;
 }
+.footer__contacts p {
+  text-decoration: underline;
+}
 .footer__contacts a {
   color: black;
   text-decoration: none;
@@ -76,4 +79,8 @@ body {
 }
 .footer__bank img {
   width: 15.625rem;
+}
+.footer__socmed p, .footer__gmaps p, .footer__bank p {
+  text-align: center;
+  text-decoration: underline;
 }/*# sourceMappingURL=layout.css.map */
