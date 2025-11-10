@@ -85,13 +85,19 @@ body {
             font-size: 2rem;
         }
 
-        // span:first-of-type {
-        //     padding: 12px;
-        // }
+        span:first-of-type {
+            padding: 12px;
+            padding-right: 0;
+        }
 
-        // span:not(:first-of-type) {
-        //     padding: ;
-        // }
+        span:last-of-type {
+            padding: 12px;
+            padding-left: 0;
+        }
+
+        span:not(:first-of-type,:last-of-type) {
+            padding: 12px;
+        }
     }
 
     &__div2 {
@@ -143,3 +149,6 @@ body {
 }
 
 // Media Queries
+// @media (max-width: ) {
+
+// }
