@@ -78,11 +78,20 @@ body {
 
     &__div1 {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         p {
             font-size: 2rem;
         }
+
+        // span:first-of-type {
+        //     padding: 12px;
+        // }
+
+        // span:not(:first-of-type) {
+        //     padding: ;
+        // }
     }
 
     &__div2 {
@@ -132,3 +141,5 @@ body {
         }
     }
 }
+
+// Media Queries

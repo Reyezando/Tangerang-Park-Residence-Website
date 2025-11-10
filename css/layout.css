@@ -60,6 +60,7 @@ body {
 }
 .footer__div1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .footer__div1 p {
