@@ -15,10 +15,15 @@
   right: 0;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
+#slider-Home .splide__slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 #slider-Home .splide__slide .imageWrap {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 54.5rem;
   height: 100%;
 }/*# sourceMappingURL=Home.css.map */

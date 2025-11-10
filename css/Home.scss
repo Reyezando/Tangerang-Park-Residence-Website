@@ -20,12 +20,15 @@
     }
 
     .splide__slide {
-        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
         .imageWrap {
             background-size: cover !important;
             background-position: center center !important;
             background-repeat: no-repeat;
-            width: 100%;
+            width: 54.5rem;
             height: 100%;
         }
     }
