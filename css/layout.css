@@ -67,20 +67,27 @@ body {
   font-size: 2rem;
 }
 .footer__div1 span:first-of-type {
-  padding: 12px;
+  padding: 30px;
   padding-right: 0;
 }
 .footer__div1 span:last-of-type {
-  padding: 12px;
+  padding: 30px;
   padding-left: 0;
 }
 .footer__div1 span:not(:first-of-type, :last-of-type) {
-  padding: 12px;
+  padding: 30px;
 }
 .footer__div2 {
   color: #464646;
   font-style: italic;
   text-align: center;
+}
+.footer__div2__disclaimer {
+  margin-top: 127px;
+  margin-bottom: 23px;
+}
+.footer__div2__copyright {
+  margin-bottom: 53px;
 }
 .footer__contacts p {
   text-decoration: underline;
