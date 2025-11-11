@@ -39,6 +39,8 @@
     &__backgroundImg {
         width: 77.6875rem;
         opacity: 70%;
+        position: absolute;
+        z-index: -1;
     }
 
     &__button {
