@@ -38,8 +38,7 @@
   cursor: pointer;
 }
 :is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3):enabled:hover {
-  transform-origin: center;
-  transform: scale(1.3);
+  transform: scale(1.1);
   width: 10em;
   height: 3em;
   position: absolute;
@@ -82,37 +81,4 @@
 .body__button button:disabled::after {
   content: "(Coming Soon)";
   font-size: 0.95em;
-}
-.body__content {
-  width: 100%;
-}
-.body__content__house {
-  padding: 5%;
-  width: 50%;
-  height: 68vh;
-  float: left;
-}
-.body__content__spec {
-  padding: 6% 5%;
-  float: left;
-}
-.body__content__spec__title {
-  display: flex;
-  justify-content: center;
-}
-.body__content__house div:hover {
-  transform: scale(1.065);
-  cursor: pointer;
-}
-.body__content__house div {
-  display: flex;
-  justify-content: center;
-}
-.body__content div div {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.body__content img {
-  height: 100%;
 }/*# sourceMappingURL=Home.css.map */
