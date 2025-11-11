@@ -37,10 +37,17 @@
 .body {
 
     &__backgroundImg {
-        width: 77.6875rem;
-        opacity: 70%;
         position: absolute;
         z-index: -1;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 396px;
+
+        img {
+            width: 77.6875rem;
+            opacity: 70%;
+        }
     }
 
     &__button {

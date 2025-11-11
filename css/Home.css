@@ -29,10 +29,16 @@
 }
 
 .body__backgroundImg {
-  width: 77.6875rem;
-  opacity: 70%;
   position: absolute;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 396px;
+}
+.body__backgroundImg img {
+  width: 77.6875rem;
+  opacity: 70%;
 }
 .body__button {
   display: flex;
