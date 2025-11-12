@@ -117,4 +117,12 @@
 .body__content__spec__title {
   display: flex;
   justify-content: center;
+}
+
+.promotion__title {
+  text-align: center;
+}
+
+.klausal__title {
+  text-align: center;
 }/*# sourceMappingURL=Home.css.map */
