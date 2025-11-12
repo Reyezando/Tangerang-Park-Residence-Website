@@ -191,6 +191,22 @@
     overflow: auto;
 }
 
+.closeFullscreenMode {
+    display: grid;
+    place-content: center;
+    width: 3.475rem;
+    height: 3.475rem;
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: 26.3875rem;
+    z-index: 4;
+    cursor: pointer;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
 .fullscreenMode.active {
     display: grid;
 }
