@@ -4,6 +4,11 @@ document.querySelectorAll('.body__content__house').forEach(content => {
     document.querySelector('.fullscreenMode').classList.add('active')
 })})
 
+// Close loginRegister Div
+document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
+  document.querySelector('.fullscreenMode').classList.remove('active')
+})
+
 // Splide Js Render
 document.querySelectorAll('.splide-Home').forEach(function (el) {
   new Splide(el, {

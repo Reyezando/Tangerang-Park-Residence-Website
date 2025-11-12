@@ -155,9 +155,11 @@
   height: 100%;
   position: fixed;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  place-content: center;
+  overflow: auto;
 }
 
 .fullscreenMode.active {
-  display: block;
+  display: grid;
 }/*# sourceMappingURL=Home.css.map */
