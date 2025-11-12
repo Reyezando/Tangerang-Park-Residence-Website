@@ -95,13 +95,13 @@
   font-size: 0.95em;
 }
 .body__content {
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .body__content__house {
-  padding: 5%;
-  width: 50%;
-  height: 68vh;
-  float: left;
+  background-size: cover;
+  width: 23.125rem;
+  height: 23.125rem;
 }
 .body__content__spec {
   padding: 6% 5%;
