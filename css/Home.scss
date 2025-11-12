@@ -126,6 +126,10 @@
         width: 23.125rem;
         height: 23.125rem;
     }
+    &__content__house:hover {
+        transform: scale(1.065);
+        cursor: pointer
+    }
     &__content__spec {
         padding: 6% 5%;
         float: left;        
@@ -133,21 +137,5 @@
     &__content__spec__title{
         display: flex;
         justify-content: center
-    }
-    &__content__house div:hover {
-        transform: scale(1.065);
-        cursor: pointer
-    }
-    &__content__house div {
-        display: flex;
-        justify-content: center;
-    }
-    &__content div div {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    &__content img {
-        height: 100%;
     }
 }
