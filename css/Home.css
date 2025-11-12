@@ -104,6 +104,7 @@
   background-size: cover;
   width: 23.125rem;
   height: 23.125rem;
+  box-shadow: 4px 4px 5.4px rgba(0, 0, 0, 0.38);
 }
 .body__content__house:hover {
   transform: scale(1.065);
