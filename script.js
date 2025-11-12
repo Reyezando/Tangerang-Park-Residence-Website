@@ -8,6 +8,7 @@ document.querySelectorAll('.body__content__house').forEach(content => {
 // Close loginRegister Div
 document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
   document.querySelector('.fullscreenMode').classList.remove('active')
+    document.querySelector('body').style.overflowY = 'auto'
 })
 
 // Splide Js Render
