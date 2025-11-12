@@ -97,8 +97,10 @@
 .body__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 75px;
 }
 .body__content__house {
+  margin: 0 auto;
   background-size: cover;
   width: 23.125rem;
   height: 23.125rem;
