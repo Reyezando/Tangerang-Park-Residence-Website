@@ -14,7 +14,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .intro__description p:hover {
-  visibility: none;
+  visibility: hidden;
 }
 
 #slider-Home .splide__arrow {
