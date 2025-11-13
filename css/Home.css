@@ -152,8 +152,6 @@
 .fullscreenMode {
   min-width: 100%;
   min-height: 100%;
-  max-width: auto;
-  max-height: auto;
   display: none;
   padding: 50px;
   position: fixed;

@@ -1,14 +1,24 @@
+// Declarations
+const fullscreenMode = document.querySelector('.fullscreenMode')
+
 // Open Full Image
 document.querySelectorAll('.body__content__house').forEach(content => {
   content.addEventListener("click", function () {
-    document.querySelector('.fullscreenMode').classList.add('active')
-    document.querySelector('body').style.overflow = 'hidden'
+    fullscreenMode.classList.add('active')
+    const fullscreenImg = fullscreenMode.querySelector('img')
+    if (fullscreenImg.width > fullscreenMode.minWidth - 50) {
+      fullscreenMode.minWidth = (fullscreenImg.width + 50) + 'px'
+    }
+    else if (fullscreenImg.height > fullscreenMode.minHeight - 50) {
+      fullscreenMode.minHeight = (fullscreenImg.height + 50) + 'px'
+    }
+    document.body.style.overflow = 'hidden'
 })})
 
 // Close loginRegister Div
 document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
-  document.querySelector('.fullscreenMode').classList.remove('active')
-    document.querySelector('body').style.overflowY = 'auto'
+  fullscreenMode.classList.remove('active')
+  document.body.style.overflowY = 'auto'
 })
 
 // Splide Js Render
