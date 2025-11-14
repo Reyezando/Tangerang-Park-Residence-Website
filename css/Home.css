@@ -65,23 +65,8 @@
   width: 30em;
   height: 3em;
 }
-.body__button button {
-  width: 10rem;
-  height: 3rem;
-}
 :is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3) {
   cursor: pointer;
-}
-:is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3):enabled:hover {
-  transform: scale(1.1);
-  position: absolute;
-  z-index: 1;
-}
-.body__button__tipe1:enabled:hover {
-  border: 1px solid black;
-}
-.body__button__tipe3:enabled:hover {
-  border: 1px solid black;
 }
 .body__button__tipe1 {
   background-color: #E07800;
@@ -109,8 +94,8 @@
   font-size: 20px;
   display: grid;
   place-content: center;
-  width: 100%;
-  height: 100%;
+  width: 10rem;
+  height: 3rem;
 }
 .body__button button:disabled::after {
   content: "(Coming Soon)";
