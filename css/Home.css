@@ -65,13 +65,15 @@
   width: 30em;
   height: 3em;
 }
+.body__button button {
+  width: 10rem;
+  height: 3rem;
+}
 :is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3) {
   cursor: pointer;
 }
 :is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3):enabled:hover {
-  transform: scale(1.3);
-  width: 10em;
-  height: 3em;
+  transform: scale(1.1);
   position: absolute;
   z-index: 1;
 }
