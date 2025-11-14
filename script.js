@@ -5,7 +5,9 @@ const fullscreenMode = document.querySelector('.fullscreenMode')
 document.querySelectorAll('.body__content__house').forEach(content => {
   content.addEventListener("click", function () {
     fullscreenMode.classList.add('active')
+    const clickedImg = this.querySelector('img')
     const fullscreenImg = fullscreenMode.querySelector('img')
+    fullscreenImg.src = clickedImg.src
     if (fullscreenImg.width > fullscreenMode.minWidth - 50) {
       fullscreenMode.minWidth = (fullscreenImg.width + 50) + 'px'
     }
@@ -13,7 +15,8 @@ document.querySelectorAll('.body__content__house').forEach(content => {
       fullscreenMode.minHeight = (fullscreenImg.height + 50) + 'px'
     }
     document.body.style.overflow = 'hidden'
-})})
+  })
+})
 
 // Close loginRegister Div
 document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
