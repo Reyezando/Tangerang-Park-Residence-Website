@@ -217,6 +217,17 @@
 }
 
 // Media Queries
-@media (max-width: 920px) {
+@media (max-width: 894px) {
     
+    .body {
+
+        &__button {
+            margin-bottom: 100px;
+        }
+
+        &__content {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 100px;
+        }
+    }
 }

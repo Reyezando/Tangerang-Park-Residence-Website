@@ -182,4 +182,14 @@
 
 .fullscreenMode.active {
   display: grid;
+}
+
+@media (max-width: 894px) {
+  .body__button {
+    margin-bottom: 100px;
+  }
+  .body__content {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 100px;
+  }
 }/*# sourceMappingURL=Home.css.map */
