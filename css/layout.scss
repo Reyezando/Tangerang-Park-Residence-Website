@@ -168,3 +168,18 @@ body {
         }
     }
 }
+
+// Media Queries
+@media (max-width: 920px) {
+
+    .navbar {
+
+        .centerDiv {
+            display: none;
+        }
+
+        &__menu {
+            flex-direction: column;
+        }
+    }
+}

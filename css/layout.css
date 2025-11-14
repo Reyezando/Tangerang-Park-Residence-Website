@@ -125,4 +125,13 @@ body {
 .footer__socmed p, .footer__gmaps p, .footer__bank p {
   text-align: center;
   text-decoration: underline;
+}
+
+@media (max-width: 920px) {
+  .navbar .centerDiv {
+    display: none;
+  }
+  .navbar__menu {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=layout.css.map */
