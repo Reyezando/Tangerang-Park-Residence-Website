@@ -190,3 +190,15 @@ body {
         }
     }
 }
+
+@media (max-width: 500px) {
+
+    .navbar {
+
+        &__background {
+            img:not(:first-of-type) {
+                display: none;
+            }
+        }
+    }
+}
