@@ -181,5 +181,12 @@ body {
         &__menu {
             flex-direction: column;
         }
+
+        &__background {
+
+            img:nth-of-type(2) {
+                margin-right: 0;
+            }
+        }
     }
 }
