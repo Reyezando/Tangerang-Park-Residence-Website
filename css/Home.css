@@ -104,6 +104,7 @@
   text-decoration: none;
 }
 .body__button button {
+  font-size: 20px;
   display: grid;
   place-content: center;
   width: 100%;
