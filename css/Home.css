@@ -62,8 +62,8 @@
 .body__button {
   display: flex;
   margin: 3em auto;
-  width: 30em;
-  height: 3em;
+  width: 47.075rem;
+  height: 5.25rem;
 }
 :is(.body__button__tipe1, .body__button__tipe2, .body__button__tipe3) {
   cursor: pointer;
@@ -91,11 +91,11 @@
   text-decoration: none;
 }
 .body__button button {
-  font-size: 20px;
+  font-size: 24px;
   display: grid;
   place-content: center;
-  width: 10rem;
-  height: 3rem;
+  width: 100%;
+  height: 100%;
 }
 .body__button button:disabled::after {
   content: "(Coming Soon)";
