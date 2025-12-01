@@ -47,17 +47,20 @@
   height: 100%;
 }
 
+.body {
+  position: relative;
+  width: 100%;
+}
 .body__backgroundImg {
   position: absolute;
+  inset: 0;
   z-index: -1;
-  display: flex;
-  justify-content: center;
   width: 100%;
-  margin-top: 396px;
-}
-.body__backgroundImg img {
-  width: 77.6875rem;
-  opacity: 70%;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: repeat-y;
+  opacity: 30%;
 }
 .body__button {
   display: flex;
