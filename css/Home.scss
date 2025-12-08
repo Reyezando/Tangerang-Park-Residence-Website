@@ -11,7 +11,7 @@
 
         p {
             width: 32.9375rem;
-            font-size: 32px;
+            font-size: 2rem;
             text-align: center;
             text-shadow: 2px 2px 4px rgba(black, .5);
         }
@@ -111,7 +111,7 @@
     }
     
     &__button button {
-        font-size: 24px;
+        font-size: 1.5rem;
         display: grid;
         place-content: center;
         width: 100%;
@@ -219,7 +219,7 @@
     }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 835px) {
     html {
         font-size: 12px;
     }
