@@ -198,8 +198,19 @@ body {
     .navbar {
 
         &__background {
+
             img:not(:first-of-type) {
                 display: none;
+            }
+        }
+    }
+
+    .footer {
+
+        &__div2 {
+
+            &__disclaimer {
+                margin-top: 0;
             }
         }
     }

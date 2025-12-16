@@ -144,6 +144,9 @@ body {
   .navbar__background img:not(:first-of-type) {
     display: none;
   }
+  .footer__div2__disclaimer {
+    margin-top: 0;
+  }
 }
 @media (max-width: 471px) {
   .footer__div1 span:first-of-type {
