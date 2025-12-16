@@ -192,4 +192,13 @@
   html {
     font-size: 12px;
   }
+}
+@media (max-width: 605px) {
+  .body__button {
+    width: 93.372dvw;
+    height: 10.413dvw;
+  }
+  .klausal {
+    padding: 0 7.106dvw 22px;
+  }
 }/*# sourceMappingURL=Home.css.map */
