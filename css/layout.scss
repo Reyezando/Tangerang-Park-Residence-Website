@@ -204,3 +204,21 @@ body {
         }
     }
 }
+
+@media (max-width: 471px) {
+
+    .footer {
+
+        &__div1 {
+
+            span:first-of-type {
+                text-align: center;
+                padding: 30px;
+            }
+
+            span:last-of-type {
+                padding: 30px;
+            }
+        }
+    }
+}

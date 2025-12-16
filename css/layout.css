@@ -144,4 +144,13 @@ body {
   .navbar__background img:not(:first-of-type) {
     display: none;
   }
+}
+@media (max-width: 471px) {
+  .footer__div1 span:first-of-type {
+    text-align: center;
+    padding: 30px;
+  }
+  .footer__div1 span:last-of-type {
+    padding: 30px;
+  }
 }/*# sourceMappingURL=layout.css.map */
