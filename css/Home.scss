@@ -16,7 +16,8 @@
             text-shadow: 2px 2px 4px rgba(black, .5);
         }
 
-        p:hover {
+
+        p:active {
             visibility: hidden;
         }
     }
@@ -204,6 +205,19 @@
 }
 
 // Media Queries
+@media (max-width: 903px) {
+
+    .intro {
+
+        &__description {
+
+            p {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
 @media (max-width: 894px) {
     
     .body {
@@ -242,5 +256,18 @@
 
     .klausal {
         padding: 0 7.106dvw 22px;
+    }
+}
+
+@media (max-width: 427px) {
+
+    .intro {
+
+        &__description {
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
     }
 }

@@ -13,7 +13,7 @@
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.intro__description p:hover {
+.intro__description p:active {
   visibility: hidden;
 }
 
@@ -179,6 +179,11 @@
   display: grid;
 }
 
+@media (max-width: 903px) {
+  .intro__description p {
+    font-size: 1.8rem;
+  }
+}
 @media (max-width: 894px) {
   .body__button {
     margin-bottom: 100px;
@@ -203,5 +208,10 @@
   }
   .klausal {
     padding: 0 7.106dvw 22px;
+  }
+}
+@media (max-width: 427px) {
+  .intro__description p {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=Home.css.map */
