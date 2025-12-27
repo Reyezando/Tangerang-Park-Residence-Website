@@ -16,10 +16,13 @@ img.addEventListener("click", () => {
   img.classList.toggle("zoomed")
 });
 
-// Close Fullscreen Mode
-document.querySelector('.fullscreenMode:not(img)').addEventListener("click", function () {
-  fullscreenMode.classList.remove('active')
-  document.body.style.overflowY = 'auto'
+// Close Fullscreen Mode (only when clicking outside the image)
+fullscreenMode.addEventListener("click", function (e) {
+  if (e.target !== img) {
+    fullscreenMode.classList.remove('active')
+    document.body.style.overflowY = 'auto'
+    img.classList.remove('zoomed')
+  }
 })
 
 // Splide Js Render
