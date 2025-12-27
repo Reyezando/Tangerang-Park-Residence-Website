@@ -196,7 +196,8 @@ body {
 @media (max-width: 500px) {
 
     .navbar {
-
+        margin-bottom: 14dvw;
+        
         &__logo:first-of-type {
             display: none;
         }

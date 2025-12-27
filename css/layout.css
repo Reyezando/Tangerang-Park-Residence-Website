@@ -141,6 +141,9 @@ body {
   }
 }
 @media (max-width: 500px) {
+  .navbar {
+    margin-bottom: 14dvw;
+  }
   .navbar__logo:first-of-type {
     display: none;
   }
