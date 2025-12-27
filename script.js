@@ -5,21 +5,12 @@ const fullscreenMode = document.querySelector('.fullscreenMode')
 document.querySelectorAll('.body__content__house').forEach(content => {
   content.addEventListener("click", function () {
     fullscreenMode.classList.add('active')
-    const bg = window.getComputedStyle(this).backgroundImage
-    const url = bg.slice(5, -2)
-    const fullscreenImg = fullscreenMode.querySelector('img')
-    fullscreenImg.src = url 
-    if (fullscreenImg.width > fullscreenMode.minWidth - 50) {
-      fullscreenMode.minWidth = (fullscreenImg.width + 50) + 'px'
-    }
-    else if (fullscreenImg.height > fullscreenMode.minHeight - 50) {
-      fullscreenMode.minHeight = (fullscreenImg.height + 50) + 'px'
-    }
+    fullscreenMode.querySelector('img').src = window.getComputedStyle(this).backgroundImage.slice(5, -2)
     document.body.style.overflow = 'hidden'
   })
 })
 
-// Close loginRegister Div
+// Close Fullscreen Mode
 document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
   fullscreenMode.classList.remove('active')
   document.body.style.overflowY = 'auto'

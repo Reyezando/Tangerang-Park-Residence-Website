@@ -145,18 +145,22 @@
 }
 
 .fullscreenMode {
-  min-width: 100%;
-  min-height: 100%;
+  height: 100%;
+  width: 100%;
   display: none;
   padding: 50px;
   position: fixed;
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.5);
   place-content: center;
-  overflow: auto;
 }
 .fullscreenMode img {
   transform: translateY(-1.7375rem);
+  max-height: calc(100dvh - 50px);
+  cursor: zoom-in;
+}
+.fullscreenMode img.active {
+  cursor: zoom-out;
 }
 
 .closeFullscreenMode {
