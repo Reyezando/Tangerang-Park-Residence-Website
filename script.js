@@ -13,11 +13,11 @@ document.querySelectorAll('.body__content__house').forEach(content => {
 
 // Zoom-in Image
 img.addEventListener("click", () => {
-  img.classList.toggle("zoomed");
+  img.classList.toggle("zoomed")
 });
 
 // Close Fullscreen Mode
-document.querySelector('.closeFullscreenMode').addEventListener("click", function () {
+document.querySelector('.fullscreenMode:not(img)').addEventListener("click", function () {
   fullscreenMode.classList.remove('active')
   document.body.style.overflowY = 'auto'
 })

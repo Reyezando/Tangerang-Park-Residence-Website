@@ -145,6 +145,7 @@
 }
 
 .fullscreenMode {
+  cursor: pointer;
   height: 100%;
   width: 100%;
   display: none;
@@ -155,33 +156,21 @@
   place-content: center;
 }
 .fullscreenMode img {
-  transform: translateY(-1.7375rem);
   max-width: calc(100dvw - 100px);
   max-height: calc(100dvh - 100px);
   cursor: zoom-in;
 }
 .fullscreenMode img.zoomed {
+  transform: scale(2);
   cursor: zoom-out;
-}
-
-.closeFullscreenMode {
-  display: grid;
-  place-content: center;
-  width: 3.475rem;
-  height: 3.475rem;
-  font-size: 5rem;
-  font-weight: 900;
-  color: white;
-  position: relative;
-  left: -1.7375rem;
-  z-index: 4;
-  cursor: pointer;
-  border: 5px solid white;
-  border-radius: 50%;
 }
 
 .fullscreenMode.active {
   display: grid;
+}
+
+.fullscreenMode:has(img.zoomed) {
+  overflow: auto;
 }
 
 @media (max-width: 903px) {
