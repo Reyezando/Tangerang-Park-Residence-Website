@@ -141,6 +141,17 @@ body {
   }
 }
 @media (max-width: 500px) {
+  .navbar__logo:first-of-type {
+    display: none;
+  }
+  .navbar__logo:last-of-type img {
+    max-height: 20dvw;
+  }
+  .navbar__background img:first-of-type {
+    margin-left: -6dvw;
+    margin-top: -10.4dvw;
+    max-width: 50.063dvw;
+  }
   .navbar__background img:not(:first-of-type) {
     display: none;
   }

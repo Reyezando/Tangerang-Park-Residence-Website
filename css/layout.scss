@@ -197,7 +197,24 @@ body {
 
     .navbar {
 
+        &__logo:first-of-type {
+            display: none;
+        }
+
+        &__logo:last-of-type {
+
+            img {
+                max-height: 20dvw;
+            }
+        }
+
         &__background {
+
+            img:first-of-type {
+                margin-left: -6dvw;
+                margin-top: -10.4dvw;
+                max-width: 50.063dvw;
+            }
 
             img:not(:first-of-type) {
                 display: none;
