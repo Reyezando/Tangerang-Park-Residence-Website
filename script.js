@@ -1,14 +1,20 @@
 // Declarations
 const fullscreenMode = document.querySelector('.fullscreenMode')
+const img = fullscreenMode.querySelector('img')
 
 // Open Full Image
 document.querySelectorAll('.body__content__house').forEach(content => {
   content.addEventListener("click", function () {
     fullscreenMode.classList.add('active')
-    fullscreenMode.querySelector('img').src = window.getComputedStyle(this).backgroundImage.slice(5, -2)
+    img.src = window.getComputedStyle(this).backgroundImage.slice(5, -2)
     document.body.style.overflow = 'hidden'
   })
 })
+
+// Zoom-in Image
+img.addEventListener("click", () => {
+  img.classList.toggle("zoomed");
+});
 
 // Close Fullscreen Mode
 document.querySelector('.closeFullscreenMode').addEventListener("click", function () {

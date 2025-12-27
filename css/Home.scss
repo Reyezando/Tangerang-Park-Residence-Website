@@ -180,11 +180,12 @@
 
     img {
         transform: translateY(-1.7375rem);
-        max-height: calc(100dvh - 50px);
+        max-width: calc(100dvw - 100px);
+        max-height: calc(100dvh - 100px);
         cursor: zoom-in;
     }
 
-    img.active {
+    img.zoomed {
         cursor: zoom-out;
     }
 }
